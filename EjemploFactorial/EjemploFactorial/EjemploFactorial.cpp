@@ -14,6 +14,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 	cout << 5 << "! es " << factorial(5) << endl;
 	cout << 6 << "! es " << factorial(6) << endl;
 
+	system("pause"); // Ejecuta el comando pausa del sistema operativo
 	return 0;
 }
 

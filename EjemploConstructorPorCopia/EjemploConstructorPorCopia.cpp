@@ -1,11 +1,23 @@
-// EjemploConstructorPorCopia.cpp : Defines the entry point for the console application.
-//
 
 #include "stdafx.h"
+#include "Loro.h"
 
+using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
-{
+void imprimirLoro(Loro l);
+
+int _tmain(int argc, _TCHAR* argv[]) {
+
+	Loro l;
+	l.setNombre("Ricardo");
+	imprimirLoro(l);
+
+	system("pause");
 	return 0;
+}
+
+// Por Copia
+void imprimirLoro(Loro l) {
+	cout << "El loro se llama " << l.getNombre() << endl;
 }
 

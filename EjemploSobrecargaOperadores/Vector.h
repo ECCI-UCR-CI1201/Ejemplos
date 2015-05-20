@@ -12,7 +12,9 @@ public:
 	const int INITIAL_SIZE = 10;
 
 	Vector();
+	Vector(Vector &);
 	virtual ~Vector();
+	void operator=(Vector &);
 	void operator+=(int);
 	Vector operator+(const Vector &);
 

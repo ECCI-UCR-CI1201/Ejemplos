@@ -6,6 +6,11 @@ Vector::Vector() {
 	init(0, INITIAL_SIZE);
 }
 
+Vector::Vector(Vector & otro) {
+	*this = otro;
+}
+
+
 void Vector::init(int size, int capacity) {
 	this->size = size;
 	this->capacity = capacity;
@@ -17,6 +22,13 @@ Vector::~Vector() {
 	fillWithZeroes();
 	vector = 0;
 	delete vector;
+}
+
+void Vector::operator=(Vector & otro) {
+	this->init(otro.size, otro.capacity);
+	for (int i = 0; i < otro.size; i++) {
+		this->vector[i] = otro.vector[i];
+	}
 }
 
 void Vector::operator+=(int nuevo) {
@@ -74,4 +86,3 @@ ostream & operator<<(ostream & out, const Vector & v) {
 	out << "]";
 	return out;
 }
-

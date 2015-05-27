@@ -2,8 +2,9 @@
 #include "stdafx.h"
 #include "ElementoInt.h"
 
-ElementoInt::ElementoInt(int i) :
+ElementoInt::ElementoInt(int i) : Elemento(),
 		i(i) {
+	// equivalente a this->i = i;
 }
 
 ElementoInt::~ElementoInt() {

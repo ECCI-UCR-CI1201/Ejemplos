@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "Elemento.h"
 #include "ElementoInt.h"
+#include "ElementoIntInt.h"
 
 using namespace std;
 
@@ -20,6 +21,14 @@ int _tmain(int argc, _TCHAR* argv[]) {
 	} else {
 		cout << "B es menor que A" << endl;
 	}
+
+	ElementoIntInt eIIA(1, 1);
+	ElementoIntInt eIIB(2, 2);
+	ElementoIntInt eIIC(3, 3);
+
+	cout << "EII A: " << eIIA << endl;
+	cout << "EII B: " << eIIB << endl;
+	cout << "EII C: " << eIIC << endl;
 
 	system("pause");
 	return 0;

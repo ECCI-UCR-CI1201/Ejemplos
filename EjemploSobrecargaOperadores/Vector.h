@@ -5,7 +5,7 @@ using namespace std;
 
 class Vector {
 
-	friend ostream & operator<<(ostream &, const Vector &);
+	friend ostream & operator<<(ostream &, Vector);
 
 public:
 
@@ -16,7 +16,7 @@ public:
 	virtual ~Vector();
 	void operator=(Vector &);
 	void operator+=(int);
-	Vector operator+(const Vector &);
+	Vector operator+(const Vector&);
 
 private:
 	int * vector; // almacena el vector
@@ -28,4 +28,4 @@ private:
 	void doubleSize(); // Duplicar el tamaño del vector y copiar valores
 };
 
-ostream & operator<<(ostream &, const Vector &);
+ostream & operator<<(ostream &, Vector);

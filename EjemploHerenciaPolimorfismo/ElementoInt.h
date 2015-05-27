@@ -6,13 +6,13 @@ using namespace std;
 
 class ElementoInt : public Elemento {
 
-private:
+protected:
 	int i;
 
 public:
 	ElementoInt(int i);
-	~ElementoInt();
-	int compareTo(Elemento *);
-	void imprimir(ostream &) const;
+	virtual ~ElementoInt();
+	virtual int compareTo(Elemento *);
+	virtual void imprimir(ostream &) const;
 
 };

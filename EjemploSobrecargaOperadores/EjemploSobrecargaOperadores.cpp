@@ -6,7 +6,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[]) {
 
-	srand((unsigned int) time(0));
+	srand((unsigned int)time(0));
 
 	Vector vA, vB;
 
@@ -23,6 +23,8 @@ int _tmain(int argc, _TCHAR* argv[]) {
 	cout << vC << endl;
 
 	cout << "Fin" << endl;
+
+	Vector vD(vC); // Llamado explicito al constructor por copia
 
 	system("pause");
 	return 0;

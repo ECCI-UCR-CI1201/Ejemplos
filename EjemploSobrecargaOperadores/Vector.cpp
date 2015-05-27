@@ -7,6 +7,7 @@ Vector::Vector() {
 }
 
 Vector::Vector(Vector & otro) {
+	cout << "Llamado al constructor por copia" << endl;
 	*this = otro;
 }
 
@@ -75,7 +76,7 @@ void Vector::fillWithZeroes() {
 	}
 }
 
-ostream & operator<<(ostream & out, const Vector & v) {
+ostream & operator<<(ostream & out, Vector v) {
 	out << "Vector[";
 	for (int i = 0; i < v.size; ++i) {
 		out << v.vector[i];

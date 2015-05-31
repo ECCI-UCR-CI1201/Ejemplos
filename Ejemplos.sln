@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploFactorial", "EjemploFactorial\EjemploFactorial.vcxproj", "{4405AD41-08E7-4999-8D3D-5119338B09E0}"
 EndProject
@@ -22,8 +22,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploConstructorPorCopia", "EjemploConstructorPorCopia\EjemploConstructorPorCopia.vcxproj", "{A0E63700-8E7D-4E31-8F96-88E03DAC8CAC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploAritmeticaPunteros", "EjemploAritmeticaPunteros\EjemploAritmeticaPunteros.vcxproj", "{967D047E-514D-450E-BC21-00EC624AB821}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinarios", "EjemploArbolesBinariosHerencia\EjemploArbolesBinarios.vcxproj", "{6E97F248-0FF3-4ED7-BC90-7A1D91C0EA07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +69,6 @@ Global
 		{967D047E-514D-450E-BC21-00EC624AB821}.Debug|Win32.Build.0 = Debug|Win32
 		{967D047E-514D-450E-BC21-00EC624AB821}.Release|Win32.ActiveCfg = Release|Win32
 		{967D047E-514D-450E-BC21-00EC624AB821}.Release|Win32.Build.0 = Release|Win32
-		{6E97F248-0FF3-4ED7-BC90-7A1D91C0EA07}.Debug|Win32.ActiveCfg = Debug|Win32
-		{6E97F248-0FF3-4ED7-BC90-7A1D91C0EA07}.Debug|Win32.Build.0 = Debug|Win32
-		{6E97F248-0FF3-4ED7-BC90-7A1D91C0EA07}.Release|Win32.ActiveCfg = Release|Win32
-		{6E97F248-0FF3-4ED7-BC90-7A1D91C0EA07}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

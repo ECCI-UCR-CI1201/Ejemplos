@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploConstructorPorCopia"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploAritmeticaPunteros", "EjemploAritmeticaPunteros\EjemploAritmeticaPunteros.vcxproj", "{967D047E-514D-450E-BC21-00EC624AB821}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinariosHerencia", "EjemploArbolesBinariosHerencia\EjemploArbolesBinariosHerencia.vcxproj", "{79894AAE-2180-415D-A533-AF97D9BE917D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +71,10 @@ Global
 		{967D047E-514D-450E-BC21-00EC624AB821}.Debug|Win32.Build.0 = Debug|Win32
 		{967D047E-514D-450E-BC21-00EC624AB821}.Release|Win32.ActiveCfg = Release|Win32
 		{967D047E-514D-450E-BC21-00EC624AB821}.Release|Win32.Build.0 = Release|Win32
+		{79894AAE-2180-415D-A533-AF97D9BE917D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79894AAE-2180-415D-A533-AF97D9BE917D}.Debug|Win32.Build.0 = Debug|Win32
+		{79894AAE-2180-415D-A533-AF97D9BE917D}.Release|Win32.ActiveCfg = Release|Win32
+		{79894AAE-2180-415D-A533-AF97D9BE917D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

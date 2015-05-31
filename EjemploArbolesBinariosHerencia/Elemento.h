@@ -9,8 +9,14 @@ class Elemento {
 
 protected:
 	Elemento();
+	Elemento *hijoIzq, *hijoDer;
 
 public:
+
+	Elemento * getHijoIzq();
+	Elemento * getHijoDer();
+	void setHijoIzq(Elemento *);
+	void setHijoDer(Elemento *);
 
 	virtual ~Elemento();
 	virtual int compareTo(Elemento *) = 0;

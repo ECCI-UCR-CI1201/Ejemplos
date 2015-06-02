@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinariosHeren
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploChrono", "EjemploChrono\EjemploChrono.vcxproj", "{5CFAD5DB-3AB8-45F9-AD02-0D563DB6B202}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPlantillas", "EjemploPlantillas\EjemploPlantillas.vcxproj", "{C4B2E056-9F17-4290-90C9-24E58AEE36C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,10 @@ Global
 		{5CFAD5DB-3AB8-45F9-AD02-0D563DB6B202}.Debug|Win32.Build.0 = Debug|Win32
 		{5CFAD5DB-3AB8-45F9-AD02-0D563DB6B202}.Release|Win32.ActiveCfg = Release|Win32
 		{5CFAD5DB-3AB8-45F9-AD02-0D563DB6B202}.Release|Win32.Build.0 = Release|Win32
+		{C4B2E056-9F17-4290-90C9-24E58AEE36C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4B2E056-9F17-4290-90C9-24E58AEE36C9}.Debug|Win32.Build.0 = Debug|Win32
+		{C4B2E056-9F17-4290-90C9-24E58AEE36C9}.Release|Win32.ActiveCfg = Release|Win32
+		{C4B2E056-9F17-4290-90C9-24E58AEE36C9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

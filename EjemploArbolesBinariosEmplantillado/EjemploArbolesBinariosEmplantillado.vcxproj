@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C4B2E056-9F17-4290-90C9-24E58AEE36C9}</ProjectGuid>
+    <ProjectGuid>{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>EjemploPlantillas</RootNamespace>
+    <RootNamespace>EjemploArbolesBinariosEmplantillado</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,12 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Matriz.h" />
+    <ClInclude Include="ArbolBinario.h" />
+    <ClInclude Include="Nodo.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EjemploPlantillas.cpp" />
+    <ClCompile Include="EjemploArbolesBinariosEmplantillado.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

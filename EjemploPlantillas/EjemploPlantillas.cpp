@@ -7,8 +7,15 @@
 template<class T>
 void imprimirMatriz();
 
+template<class T> 
+void imprimirNumero(T algo);
+
 int _tmain(int argc, _TCHAR* argv[]) {
-	srand((unsigned int) time(NULL));
+	srand((unsigned int)time(NULL));
+
+	imprimirNumero(5);
+	imprimirNumero(5.5);
+	imprimirNumero('5');
 
 	imprimirMatriz<int>();
 	imprimirMatriz<double>();
@@ -16,6 +23,11 @@ int _tmain(int argc, _TCHAR* argv[]) {
 
 	system("pause");
 	return 0;
+}
+
+template<class T> 
+void imprimirNumero(T algo) {
+	cout << algo << endl;
 }
 
 template<class T>

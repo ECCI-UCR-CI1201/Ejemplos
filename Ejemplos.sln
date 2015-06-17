@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPlantillas", "Ejempl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploCalculadora", "EjemploCalculadora\EjemploCalculadora.vcxproj", "{DEAD5A89-AC83-4AF7-A3AF-60A06353775D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinariosEmplantillado", "EjemploArbolesBinariosEmplantillado\EjemploArbolesBinariosEmplantillado.vcxproj", "{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,16 @@ Global
 		{DEAD5A89-AC83-4AF7-A3AF-60A06353775D}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{DEAD5A89-AC83-4AF7-A3AF-60A06353775D}.Release|Win32.ActiveCfg = Release|Win32
 		{DEAD5A89-AC83-4AF7-A3AF-60A06353775D}.Release|Win32.Build.0 = Release|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Debug|Win32.Build.0 = Debug|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Any CPU.ActiveCfg = Release|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Win32.ActiveCfg = Release|Win32
+		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,11 @@
 #include "stdafx.h"
 using namespace std;
 
-template<class T>
+template<class T> 
 class Matriz {
 
 	template<class T>
-	friend ostream& operator<<(ostream&, Matriz<T>& e);
+	friend ostream& operator<<(ostream&, Matriz<T>&);
 
 private:
 	T ** matriz;
@@ -22,9 +22,6 @@ public:
 		this->matriz = new T*[n];
 		for (int i = 0; i < n; i++) {
 			this->matriz[i] = new T[m];
-			for (int j = 0; j < m; j++) {
-				this->matriz[i][j] = 0;
-			}
 		}
 	}
 

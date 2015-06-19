@@ -11,13 +11,13 @@ template<class T>
 class ArbolBinario {
 
 	template<class T>
-	friend ostream & operator<<(ostream &, ArbolBinario &);
+	friend ostream & operator<<(ostream &, ArbolBinario<T> &);
 
 private:
 	Nodo<T> * raiz;
 
 public:
-	ArbolBinario(){
+	ArbolBinario() {
 		raiz = NULL;
 	}
 
@@ -31,56 +31,53 @@ public:
 		Nodo<T> * nodo = new Nodo<T>(elemento);
 		if (raiz == NULL) {
 			raiz = nodo;
-		}
-		else {
+		} else {
 			insertarRec(raiz, nodo);
 		}
 	}
+
+
 
 private:
 	void insertarRec(Nodo<T> * nodoActual,
 		Nodo<T> * elemento) {
 		if (nodoActual->actual < elemento->actual) {
-			if (nodoActual->getHijoIzq() != NULL) {
-				insertarRec(nodoActual->getHijoIzq(), elemento);
+			if (nodoActual->hIzq != NULL) {
+				insertarRec(nodoActual->hIzq, elemento);
+			} else {
+				nodoActual->hIzq = elemento;
 			}
-			else {
-				nodoActual->setHijoIzq(elemento);
-			}
-		}
-		else {
-			if (nodoActual->getHijoDer() != NULL) {
-				insertarRec(nodoActual->getHijoDer(), elemento);
-			}
-			else {
-				nodoActual->setHijoDer(elemento);
+		} else {
+			if (nodoActual->hDer != NULL) {
+				insertarRec(nodoActual->hDer, elemento);
+			} else {
+				nodoActual->hDer = elemento;
 			}
 		}
 	}
 	void imprimir(Nodo<T>* nodo, ostream& out, int profundidad) {
-		if (nodo->getHijoIzq() != NULL) {
-			imprimir(nodo->getHijoIzq(), out, profundidad + 1);
+		if (nodo->hIzq != NULL) {
+			imprimir(nodo->hIzq, out, profundidad + 1);
 		}
 		for (int i = 0; i < profundidad; ++i) {
 			cout << "\t";
 		}
-		out << *nodo << endl;
-		if (nodo->getHijoDer() != NULL) {
-			imprimir(nodo->getHijoDer(), out, profundidad + 1);
+		out << nodo->actual << endl;
+		if (nodo->hDer != NULL) {
+			imprimir(nodo->hDer, out, profundidad + 1);
 		}
 	}
 
 	void destruirRec(Nodo<T> * nodo) {
-		if (nodo->getHijoIzq() != NULL) {
-			destruirRec(nodo->getHijoIzq());
+		if (nodo->hIzq != NULL) {
+			destruirRec(nodo->hIzq);
 		}
-		if (nodo->getHijoDer() != NULL) {
-			destruirRec(nodo->getHijoDer());
+		if (nodo->hDer != NULL) {
+			destruirRec(nodo->hDer);
 		}
 		// Primero se destruye a los hijos y luego al padre.
 		delete nodo;
 	}
-
 };
 
 template<class T>

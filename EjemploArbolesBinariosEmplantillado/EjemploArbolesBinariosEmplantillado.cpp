@@ -4,13 +4,21 @@
 #include "stdafx.h"
 #include "ArbolBinario.h"
 
-int _tmain(int argc, _TCHAR* argv[])
-{
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[]) {
+
+	srand((unsigned int) time(NULL));
 
 	ArbolBinario<int> a;
 
-	a.insertar(5);
+	for (int i = 0; i < 10; ++i) {
+		a.insertar(rand() % 100);
+	}
 
+	cout << a << endl;
+
+	system("pause");
 
 	return 0;
 }

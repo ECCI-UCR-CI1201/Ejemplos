@@ -3,20 +3,22 @@
 template<class T>
 class Nodo {
 
-	friend class ArbolBinario < T > ;
+	template <class T>
+	friend class ArbolBinario;
 
 private:
-	T actual, *hIzq, *hDer;
+	T actual;
+	Nodo<T> *hIzq, *hDer;
 
 public:
 	Nodo(T elemento) {
 		this->actual = elemento;
-		hIzq = 0;
-		hDer = 0;
+		hIzq = NULL;
+		hDer = NULL;
 	}
 
 	~Nodo() {
-
 	}
+
 };
 

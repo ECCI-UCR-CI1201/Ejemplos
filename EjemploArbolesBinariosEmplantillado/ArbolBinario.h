@@ -4,6 +4,7 @@
 #include "stdafx.h"
 
 #include "Nodo.h"
+#include "Iterador.h"
 #include <iostream>
 using namespace std;
 
@@ -36,7 +37,9 @@ public:
 		}
 	}
 
-
+	Iterador<T> & begin() {
+		return Iterador<T>(raiz);
+	}
 
 private:
 	void insertarRec(Nodo<T> * nodoActual,

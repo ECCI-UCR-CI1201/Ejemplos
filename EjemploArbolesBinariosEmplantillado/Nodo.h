@@ -6,6 +6,9 @@ class Nodo {
 	template <class T>
 	friend class ArbolBinario;
 
+	template <class T>
+	friend class Iterador;
+
 private:
 	T actual;
 	Nodo<T> *hIzq, *hDer;

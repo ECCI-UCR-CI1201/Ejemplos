@@ -23,12 +23,21 @@
     <ClInclude Include="Nodo.h">
       <Filter>headers</Filter>
     </ClInclude>
+    <ClInclude Include="Persona.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterador.h">
+      <Filter>headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>sources</Filter>
     </ClCompile>
     <ClCompile Include="EjemploArbolesBinariosEmplantillado.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
       <Filter>sources</Filter>
     </ClCompile>
   </ItemGroup>

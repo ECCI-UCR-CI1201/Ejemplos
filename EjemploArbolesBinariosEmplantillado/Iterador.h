@@ -20,40 +20,31 @@ public:
 
 	// Preincremento
 	T& operator++() {
-		if (anterior == actual->hIzq) {
-			if (actual->hDer != NULL) {
-				anterior = actual;
-				actual = actual->hDer;
-			}
-			else {
-				swap(actual, anterior);
-			}
-		}
-		else if (anterior == actual->hDer) {
-			swap(actual, anterior);
-		}
-		else{
-			if (actual->hIzq != NULL) {
-				anterior = actual;
-				actual = actual->hIzq;
-			}
-			else {
+		bool continuar = true;
+		while (continuar && actual != 0) {
+			continuar = false;
+			Nodo<T> * tmp = actual;
+			if (actual != NULL && anterior == actual->hIzq) {
 				if (actual->hDer != NULL) {
-					anterior = actual;
 					actual = actual->hDer;
+				} else {
+					actual = actual->padre;
+					continuar = true;
 				}
-				else {
-					swap(actual, anterior);
-				}
+			} else if (actual != NULL && anterior == actual->hDer) {
+				actual = actual->padre;
+				continuar = true;
+			} else if (actual->hIzq != NULL) {
+				actual = actual->hIzq;
+			} else if (actual->hDer != NULL) {
+				actual = actual->hDer;
+			} else {
+				actual = actual->padre;
+				continuar = true;
 			}
+			anterior = tmp;
 		}
 		return actual->actual;
-	}
-
-	void swap(Nodo<T> * a, Nodo<T> * b) {
-		Nodo<T> * tmp = a;
-		a = b;
-		b = tmp;
 	}
 
 	// Posincremento
@@ -64,6 +55,13 @@ public:
 		return actual->actual;
 	}
 
+	bool operator!=(Iterador<T> & otro) {
+		return this->actual != otro.actual;
+	}
+
+	bool operator==(Iterador<T> & otro) {
+		return this->actual == otro.actual;
+	}
 
 };
 

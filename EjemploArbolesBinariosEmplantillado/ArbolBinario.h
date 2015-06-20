@@ -33,28 +33,34 @@ public:
 		if (raiz == NULL) {
 			raiz = nodo;
 		} else {
-			insertarRec(raiz, nodo);
+			insertarRec(NULL, raiz, nodo);
 		}
 	}
 
-	Iterador<T> & begin() {
+	Iterador<T> begin() {
 		return Iterador<T>(raiz);
 	}
 
+	Iterador<T> end() {
+		return Iterador<T>(NULL);
+	}
+
 private:
-	void insertarRec(Nodo<T> * nodoActual,
+	void insertarRec(Nodo<T> * padreActual, Nodo<T> * nodoActual,
 		Nodo<T> * elemento) {
 		if (nodoActual->actual < elemento->actual) {
 			if (nodoActual->hIzq != NULL) {
-				insertarRec(nodoActual->hIzq, elemento);
+				insertarRec(nodoActual, nodoActual->hIzq, elemento);
 			} else {
 				nodoActual->hIzq = elemento;
+				elemento->padre = nodoActual;
 			}
 		} else {
 			if (nodoActual->hDer != NULL) {
-				insertarRec(nodoActual->hDer, elemento);
+				insertarRec(nodoActual, nodoActual->hDer, elemento);
 			} else {
 				nodoActual->hDer = elemento;
+				elemento->padre = nodoActual;
 			}
 		}
 	}
@@ -78,7 +84,6 @@ private:
 		if (nodo->hDer != NULL) {
 			destruirRec(nodo->hDer);
 		}
-		// Primero se destruye a los hijos y luego al padre.
 		delete nodo;
 	}
 };

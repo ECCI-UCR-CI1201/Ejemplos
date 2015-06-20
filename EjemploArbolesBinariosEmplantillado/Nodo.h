@@ -11,11 +11,12 @@ class Nodo {
 
 private:
 	T actual;
-	Nodo<T> *hIzq, *hDer;
+	Nodo<T> *padre, *hIzq, *hDer;
 
 public:
 	Nodo(T elemento) {
 		this->actual = elemento;
+		padre = NULL;
 		hIzq = NULL;
 		hDer = NULL;
 	}

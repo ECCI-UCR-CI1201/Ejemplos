@@ -21,7 +21,7 @@ int _tmain(int argc, _TCHAR* argv[]) {
 	for (int i = 0; i < 10; ++i) {
 		b.insertar((double)(rand() % 100) / 5.0);
 	}
-	cout << b << endl;
+	// cout << b << endl;
 
 	ArbolBinario<Persona> c;
 	Persona p1("Arbol", "1");
@@ -32,16 +32,16 @@ int _tmain(int argc, _TCHAR* argv[]) {
 	c.insertar(p1);
 	c.insertar(p3);
 
-	cout << c << endl;
-
-	system("pause");
+	// cout << c << endl;
 
 	// Probar Iteradores
 	Iterador<int> it = a.begin();
-	while (true) {
+	while (it != a.end()) {
 		cout << *it << endl;
 		++it;
 	}
+
+	system("pause");
 
 	return 0;
 }

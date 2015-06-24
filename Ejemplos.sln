@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploCalculadora", "Ejemp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinariosEmplantillado", "EjemploArbolesBinariosEmplantillado\EjemploArbolesBinariosEmplantillado.vcxproj", "{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploAssert", "EjemploAssert\EjemploAssert.vcxproj", "{0680B7C8-780E-466E-B36D-F21C9B67E97A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,16 @@ Global
 		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Win32.ActiveCfg = Release|Win32
 		{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}.Release|Win32.Build.0 = Release|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Debug|Win32.Build.0 = Debug|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Release|Win32.ActiveCfg = Release|Win32
+		{0680B7C8-780E-466E-B36D-F21C9B67E97A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

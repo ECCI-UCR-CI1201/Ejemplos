@@ -33,7 +33,7 @@ public:
 		if (raiz == NULL) {
 			raiz = nodo;
 		} else {
-			insertarRec(NULL, raiz, nodo);
+			insertarRec(raiz, nodo);
 		}
 	}
 
@@ -46,18 +46,18 @@ public:
 	}
 
 private:
-	void insertarRec(Nodo<T> * padreActual, Nodo<T> * nodoActual,
+	void insertarRec(Nodo<T> * nodoActual,
 		Nodo<T> * elemento) {
 		if (nodoActual->actual < elemento->actual) {
 			if (nodoActual->hIzq != NULL) {
-				insertarRec(nodoActual, nodoActual->hIzq, elemento);
+				insertarRec(nodoActual->hIzq, elemento);
 			} else {
 				nodoActual->hIzq = elemento;
 				elemento->padre = nodoActual;
 			}
 		} else {
 			if (nodoActual->hDer != NULL) {
-				insertarRec(nodoActual, nodoActual->hDer, elemento);
+				insertarRec(nodoActual->hDer, elemento);
 			} else {
 				nodoActual->hDer = elemento;
 				elemento->padre = nodoActual;

@@ -19,7 +19,7 @@ public:
 	}
 
 	// Preincremento
-	T& operator++() {
+	Iterador<T>& operator++() {
 		bool continuar = true;
 		while (continuar && actual != 0) {
 			continuar = false;
@@ -44,12 +44,15 @@ public:
 			}
 			anterior = tmp;
 		}
-		return actual->actual;
+		return *this;
 	}
 
 	// Posincremento
-	//	T& operator++(){
-	//}
+	Iterador<T> operator++(int) {
+		Iterador<T> tmp(this->actual);
+		++(*this);
+		return tmp;
+	}
 
 	T operator*() {
 		return actual->actual;

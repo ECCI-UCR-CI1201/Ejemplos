@@ -34,12 +34,22 @@ int _tmain(int argc, _TCHAR* argv[]) {
 
 	// cout << c << endl;
 
-	// Probar Iteradores
-	Iterador<int> it = a.begin();
-	while (it != a.end()) {
-		cout << *it << endl;
-		++it;
+	cout << "Preincremento" << endl;
+	// Probar Iteradores preincremento
+	Iterador<int> itA = a.begin();
+	while (itA != a.end()) {
+		cout << *itA << endl;
+		++itA;
 	}
+	cout << endl;
+
+	cout << "Posincremento" << endl;
+	// Probar Iteradores posincremento
+	Iterador<int> itB = a.begin();
+	while (itB != a.end()) {
+		cout << *(itB++) << endl;
+	}
+	cout << endl;
 
 	system("pause");
 

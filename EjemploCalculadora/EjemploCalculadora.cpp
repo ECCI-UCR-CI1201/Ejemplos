@@ -1,4 +1,4 @@
-// EjemploCalculadora.cpp : Defines the entry point for the console application.
+﻿// EjemploCalculadora.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"

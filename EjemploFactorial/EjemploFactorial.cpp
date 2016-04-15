@@ -1,4 +1,4 @@
-// EjemploFactorial.cpp: define el punto de entrada de la aplicaci�n de consola.
+﻿// EjemploFactorial.cpp: define el punto de entrada de la aplicación de consola.
 //
 
 #include "stdafx.h"

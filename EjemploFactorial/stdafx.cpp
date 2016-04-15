@@ -1,6 +1,6 @@
-// stdafx.cpp: archivo de cÛdigo fuente que contiene sÛlo las inclusiones est·ndar
-// EjemploFactorial.pch ser· el encabezado precompilado
-// stdafx.obj contiene la informaciÛn de tipos precompilada
+Ôªø// stdafx.cpp: archivo de c√≥digo fuente que contiene s√≥lo las inclusiones est√°ndar
+// EjemploFactorial.pch ser√° el encabezado precompilado
+// stdafx.obj contiene la informaci√≥n de tipos precompilada
 
 #include "stdafx.h"
 

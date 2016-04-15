@@ -1,4 +1,4 @@
-
+﻿
 #include "stdafx.h"
 
 using namespace std;
@@ -24,7 +24,7 @@ int _tmain(int argc, _TCHAR* argv[]) {
 void imprimirPiramide(int n) {
 	cout << "Piramide de " << n << " lineas" << endl;
 	if (n >= 3) {
-		// Imprimir cada l�nea
+		// Imprimir cada línea
 		for (int i = 0; i < n; ++i) {
 			// Imprimir espacios
 			for (int j = 0; j < n - i - 1; ++j) {

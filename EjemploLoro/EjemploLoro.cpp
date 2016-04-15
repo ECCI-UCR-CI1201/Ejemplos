@@ -1,4 +1,4 @@
-// EjemploLoro.cpp : Defines the entry point for the console application.
+﻿// EjemploLoro.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"

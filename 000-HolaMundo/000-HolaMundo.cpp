@@ -8,6 +8,8 @@ using namespace std;
 	#define _tcout std::cout
 #endif
 
+void imprimir(char *);
+
 /**
  * Punto de entrada de la aplicación.
  */
@@ -33,8 +35,15 @@ int _tmain(int argc, _TCHAR *argv[]) {
 	cout << _T("Hola Mundo!óí") << endl;
 	wcout << _T("Hola Mundo!óí") << endl;
 
+	imprimir("Hola Mundo");
+
+
 	system("pause");
 
 	SetConsoleOutputCP(oldcp);
     return 0;
+}
+
+void imprimir(char * hilera) {
+	cout << hilera << endl;
 }

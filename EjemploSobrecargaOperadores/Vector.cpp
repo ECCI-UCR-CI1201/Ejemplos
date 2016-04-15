@@ -21,8 +21,8 @@ void Vector::init(int size, int capacity) {
 
 Vector::~Vector() {
 	fillWithZeroes();
+	delete [] vector;
 	vector = 0;
-	delete vector;
 }
 
 void Vector::operator=(Vector & otro) {

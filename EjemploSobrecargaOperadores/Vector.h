@@ -10,7 +10,6 @@ class Vector {
 public:
 
 	const int INITIAL_SIZE = 10;
-
 	Vector();
 	Vector(Vector &);
 	virtual ~Vector();

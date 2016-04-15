@@ -1,4 +1,4 @@
-
+ï»¿
 #include "stdafx.h"
 using namespace std;
 using std::chrono::nanoseconds;
@@ -10,13 +10,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	// Se obtiene el tick de inicio
 	auto inicio = std::chrono::high_resolution_clock::now();
 
-	// =-= Inicio código a medir =-=
+	// =-= Inicio cÃ³digo a medir =-=
 	for (int i = 0; i < 1000; i++) {
 		for (int j = 0; j < 1000; j++) {
 			int a = i * j;
 		}
 	}
-	// =-= Fin código a medir =-=
+	// =-= Fin cÃ³digo a medir =-=
 
 	// Se obtiene el tick de final
 	auto fin = std::chrono::high_resolution_clock::now();

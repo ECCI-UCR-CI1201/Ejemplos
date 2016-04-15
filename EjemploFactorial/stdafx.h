@@ -1,5 +1,5 @@
-// stdafx.h: archivo de inclusiÛn de los archivos de inclusiÛn est·ndar del sistema
-// o archivos de inclusiÛn especÌficos de un proyecto utilizados frecuentemente,
+Ôªø// stdafx.h: archivo de inclusi√≥n de los archivos de inclusi√≥n est√°ndar del sistema
+// o archivos de inclusi√≥n espec√≠ficos de un proyecto utilizados frecuentemente,
 // pero rara vez modificados
 //
 
@@ -10,4 +10,4 @@
 #include <stdio.h>
 #include <tchar.h>
 
-// TODO: mencionar aquÌ los encabezados adicionales que el programa necesita
+// TODO: mencionar aqu√≠ los encabezados adicionales que el programa necesita

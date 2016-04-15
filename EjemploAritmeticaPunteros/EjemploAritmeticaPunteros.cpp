@@ -1,4 +1,4 @@
- 
+ï»¿ 
 #include "stdafx.h"
 
 using namespace std;
@@ -7,7 +7,7 @@ int _tmain(int argc, _TCHAR* argv[]) {
 
 	int n = 10;
 
-	// Creación de un vector
+	// CreaciÃ³n de un vector
 	int * p = new int[n];
 	for (int i = 0; i < n; ++i) {
 		p[i] = i + 1;
@@ -32,7 +32,7 @@ int _tmain(int argc, _TCHAR* argv[]) {
 	cout << "V original: " << v << endl;
 	for (char * i = perro; i < perro + 4; ++i) {
 		cout << (int) ((unsigned char) *i) << " "; // Muy oscuro
-		(*i)++; // Algo más oscuro
+		(*i)++; // Algo mÃ¡s oscuro
 	}
 	cout << endl;
 	cout << "V modificado: " << v << endl;

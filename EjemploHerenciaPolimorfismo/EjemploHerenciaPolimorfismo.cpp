@@ -1,4 +1,4 @@
-
+﻿
 #include "stdafx.h"
 #include "Elemento.h"
 #include "ElementoInt.h"

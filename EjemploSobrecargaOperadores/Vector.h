@@ -1,4 +1,4 @@
-
+ï»¿
 #pragma once
 
 using namespace std;
@@ -19,12 +19,12 @@ public:
 
 private:
 	int * vector; // almacena el vector
-	int size; // tamaño real vector
+	int size; // tamaÃ±o real vector
 	int capacity; // capacidad maxima del vector
 
 	void init(int, int);
 	void fillWithZeroes();
-	void doubleSize(); // Duplicar el tamaño del vector y copiar valores
+	void doubleSize(); // Duplicar el tamaÃ±o del vector y copiar valores
 };
 
 ostream & operator<<(ostream &, Vector);

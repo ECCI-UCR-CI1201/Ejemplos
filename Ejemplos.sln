@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002-Loro", "EjemploLoro\EjemploLoro.vcxproj", "{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploSobrecargaOperadores", "EjemploSobrecargaOperadores\EjemploSobrecargaOperadores.vcxproj", "{F0395637-E677-439E-AAFD-D1BD207912BD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003-SobrecargaOperadores", "EjemploSobrecargaOperadores\EjemploSobrecargaOperadores.vcxproj", "{F0395637-E677-439E-AAFD-D1BD207912BD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploRecursivo", "EjemploRecursivo\EjemploRecursivo.vcxproj", "{D13DA0FC-1538-4321-8778-380623D74D3F}"
 EndProject
@@ -36,6 +36,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000-HolaMundo", "000-HolaMundo\000-HolaMundo.vcxproj", "{0E123A9A-7647-4EB2-B2A9-8CFB5552D10D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001-Introduccion", "001-Introduccion\001-Introduccion.vcxproj", "{7DF5270C-D6D0-4FC8-875E-35C3951E566D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004-Herencia", "004-Herencia\004-Herencia.vcxproj", "{EC24137C-0077-4661-AD02-11678379001D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -257,6 +259,20 @@ Global
 		{7DF5270C-D6D0-4FC8-875E-35C3951E566D}.Release|Win32.Build.0 = Release|Win32
 		{7DF5270C-D6D0-4FC8-875E-35C3951E566D}.Release|x64.ActiveCfg = Release|x64
 		{7DF5270C-D6D0-4FC8-875E-35C3951E566D}.Release|x64.Build.0 = Release|x64
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|Win32.Build.0 = Debug|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|x64.ActiveCfg = Debug|x64
+		{EC24137C-0077-4661-AD02-11678379001D}.Debug|x64.Build.0 = Debug|x64
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|Win32.ActiveCfg = Release|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|Win32.Build.0 = Release|Win32
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|x64.ActiveCfg = Release|x64
+		{EC24137C-0077-4661-AD02-11678379001D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

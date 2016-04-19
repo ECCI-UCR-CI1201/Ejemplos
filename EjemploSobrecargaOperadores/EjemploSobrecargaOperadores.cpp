@@ -1,30 +1,22 @@
 ﻿
 #include "stdafx.h"
-#include "Vector.h"
+#include "Fraccion.h"
+
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[]) {
 
-	srand((unsigned int)time(0));
+	Fraccion f1(1, 2);
+	Fraccion f2(2, 3);
 
-	Vector vA, vB;
+	cout << "F1 = " << f1 << endl;
+	cout << "F2 = " << f2 << endl;
 
-	for (int i = 1; i <= 25; ++i) {
-		vA += rand() % 100; // Agregar # al final del vector
-		vB += rand() % 100; // Agregar # al final del vector
-	}
-
-	cout << vA << endl;
-	cout << vB << endl;
-
-	Vector vC = vA + (vA + vB) + vB;
-
-	cout << vC << endl;
-
-	cout << "Fin" << endl;
-
-	Vector vD(vC); // Llamado explicito al constructor por copia
+	cout << "F1 + F2 = " << f1 << " + " << f2 << " = " << f1 + f2 << endl;
+	cout << "F1 - F2 = " << f1 << " - " << f2 << " = " << f1 - f2 << endl;
+	cout << "F1 * F2 = " << f1 << " * " << f2 << " = " << f1 * f2 << endl;
+	cout << "F1 / F2 = " << f1 << " / " << f2 << " = " << f1 / f2 << endl;
 
 	system("pause");
 	return 0;

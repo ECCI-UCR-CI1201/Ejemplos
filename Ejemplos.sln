@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploFactorial", "EjemploFactorial\EjemploFactorial.vcxproj", "{4405AD41-08E7-4999-8D3D-5119338B09E0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploLoro", "EjemploLoro\EjemploLoro.vcxproj", "{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002-Loro", "EjemploLoro\EjemploLoro.vcxproj", "{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploSobrecargaOperadores", "EjemploSobrecargaOperadores\EjemploSobrecargaOperadores.vcxproj", "{F0395637-E677-439E-AAFD-D1BD207912BD}"
 EndProject
@@ -51,18 +49,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Debug|Win32.Build.0 = Debug|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Debug|x64.ActiveCfg = Debug|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Release|Any CPU.ActiveCfg = Release|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Release|Win32.ActiveCfg = Release|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Release|Win32.Build.0 = Release|Win32
-		{4405AD41-08E7-4999-8D3D-5119338B09E0}.Release|x64.ActiveCfg = Release|Win32
 		{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}.Debug|Mixed Platforms.Build.0 = Debug|Win32

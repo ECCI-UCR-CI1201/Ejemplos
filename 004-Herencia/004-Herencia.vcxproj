@@ -149,7 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="004-Herencia.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Gato.cpp" />
     <ClCompile Include="Perro.cpp" />

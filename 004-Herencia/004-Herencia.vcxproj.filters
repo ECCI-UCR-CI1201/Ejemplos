@@ -1,47 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Header">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Main">
+      <UniqueIdentifier>{d4ba8956-9556-44ef-bf09-c8d94fc56c8a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="HerenciaSimple">
+      <UniqueIdentifier>{55d8ea2c-2cdf-445e-9d6c-026bb44e4d20}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header</Filter>
-    </ClInclude>
     <ClInclude Include="Animal.h">
-      <Filter>Header</Filter>
-    </ClInclude>
-    <ClInclude Include="Perro.h">
-      <Filter>Header</Filter>
+      <Filter>HerenciaSimple</Filter>
     </ClInclude>
     <ClInclude Include="Gato.h">
-      <Filter>Header</Filter>
+      <Filter>HerenciaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="Perro.h">
+      <Filter>HerenciaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="004-Herencia.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
     </ClCompile>
     <ClCompile Include="Animal.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Perro.cpp">
-      <Filter>Source</Filter>
+      <Filter>HerenciaSimple</Filter>
     </ClCompile>
     <ClCompile Include="Gato.cpp">
-      <Filter>Source</Filter>
+      <Filter>HerenciaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="Perro.cpp">
+      <Filter>HerenciaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

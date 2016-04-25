@@ -9,15 +9,20 @@ class Animal {
 	friend ostream & operator<<(ostream &, Animal *);
 
 private:
+	virtual void imprimir(ostream &);
+
+protected:
 	int edad;
 	double peso;
 
 public:
 	Animal(int, double);
-	~Animal();
+	virtual ~Animal();
 
 	int getEdad();
 	double getPeso();
+	void queEs(ostream &);
+	virtual void queEsPolimorfico(ostream &);
 };
 
 ostream & operator<<(ostream &, Animal &);

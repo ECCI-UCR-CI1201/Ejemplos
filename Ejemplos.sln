@@ -3,41 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002-Loro", "EjemploLoro\EjemploLoro.vcxproj", "{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000-Sintaxis-HolaMundo", "000-Sintaxis-HolaMundo\000-HolaMundo.vcxproj", "{0E123A9A-7647-4EB2-B2A9-8CFB5552D10D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003-SobrecargaOperadores", "EjemploSobrecargaOperadores\EjemploSobrecargaOperadores.vcxproj", "{F0395637-E677-439E-AAFD-D1BD207912BD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001-Sintaxis-Basico", "001-Sintaxis-Basico\001-Introduccion.vcxproj", "{7DF5270C-D6D0-4FC8-875E-35C3951E566D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploRecursivo", "EjemploRecursivo\EjemploRecursivo.vcxproj", "{D13DA0FC-1538-4321-8778-380623D74D3F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002-Sintaxis-Objetos", "002-Sintaxis-Objetos\EjemploLoro.vcxproj", "{5E7B6646-B7D3-49C8-8A3F-4A21B3E0979B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPunteros", "EjemploPunteros\EjemploPunteros.vcxproj", "{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003-Punteros-Introduccion", "003-Punteros-Introduccion\EjemploPunteros.vcxproj", "{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPiramide", "EjemploPiramide\EjemploPiramide.vcxproj", "{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004-Punteros-Aritmetica", "004-Punteros-Aritmetica\EjemploAritmeticaPunteros.vcxproj", "{967D047E-514D-450E-BC21-00EC624AB821}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPasarCopiaPunteroReferencia", "EjemploPasarCopiaPunteroReferencia\EjemploPasarCopiaPunteroReferencia.vcxproj", "{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "005-Debug-Assert", "005-Debug-Assert\EjemploAssert.vcxproj", "{0680B7C8-780E-466E-B36D-F21C9B67E97A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploHerenciaPolimorfismo", "EjemploHerenciaPolimorfismo\EjemploHerenciaPolimorfismo.vcxproj", "{7FA16EB2-0803-421A-B9C1-7662141F658D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "006-Debug-Chrono", "006-Debug-Chrono\EjemploChrono.vcxproj", "{5CFAD5DB-3AB8-45F9-AD02-0D563DB6B202}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploConstructorPorCopia", "EjemploConstructorPorCopia\EjemploConstructorPorCopia.vcxproj", "{A0E63700-8E7D-4E31-8F96-88E03DAC8CAC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "007-Sintaxis-ConstructorPorCopia", "007-Sintaxis-ConstructorPorCopia\EjemploConstructorPorCopia.vcxproj", "{A0E63700-8E7D-4E31-8F96-88E03DAC8CAC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploAritmeticaPunteros", "EjemploAritmeticaPunteros\EjemploAritmeticaPunteros.vcxproj", "{967D047E-514D-450E-BC21-00EC624AB821}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "008-Sintaxis-TiposDeParametros", "008-Sintaxis-TiposDeParametros\EjemploPasarCopiaPunteroReferencia.vcxproj", "{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinariosHerencia", "EjemploArbolesBinariosHerencia\EjemploArbolesBinariosHerencia.vcxproj", "{79894AAE-2180-415D-A533-AF97D9BE917D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009-Sintaxis-SobrecargaOperadores", "009-Sintaxis-SobrecargaOperadores\EjemploSobrecargaOperadores.vcxproj", "{F0395637-E677-439E-AAFD-D1BD207912BD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploChrono", "EjemploChrono\EjemploChrono.vcxproj", "{5CFAD5DB-3AB8-45F9-AD02-0D563DB6B202}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010-Herencia-Introduccion", "010-Herencia-Introduccion\004-Herencia.vcxproj", "{EC24137C-0077-4661-AD02-11678379001D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPlantillas", "EjemploPlantillas\EjemploPlantillas.vcxproj", "{C4B2E056-9F17-4290-90C9-24E58AEE36C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011-Herencia-Calculadora", "011-Herencia-Calculadora\EjemploCalculadora.vcxproj", "{DEAD5A89-AC83-4AF7-A3AF-60A06353775D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploCalculadora", "EjemploCalculadora\EjemploCalculadora.vcxproj", "{DEAD5A89-AC83-4AF7-A3AF-60A06353775D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "012-Herencia-ArbolBinario", "012-Herencia-ArbolBinario\EjemploArbolesBinariosHerencia.vcxproj", "{79894AAE-2180-415D-A533-AF97D9BE917D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploArbolesBinariosEmplantillado", "EjemploArbolesBinariosEmplantillado\EjemploArbolesBinariosEmplantillado.vcxproj", "{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "013-Plantillas-Introduccion", "013-Plantillas-Introduccion\EjemploPlantillas.vcxproj", "{C4B2E056-9F17-4290-90C9-24E58AEE36C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploAssert", "EjemploAssert\EjemploAssert.vcxproj", "{0680B7C8-780E-466E-B36D-F21C9B67E97A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "014-Plantillas-ArbolBinario", "014-Plantillas-ArbolBinario\EjemploArbolesBinariosEmplantillado.vcxproj", "{82B81D40-3CE6-42D8-8E72-1B389B3C58D4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000-HolaMundo", "000-HolaMundo\000-HolaMundo.vcxproj", "{0E123A9A-7647-4EB2-B2A9-8CFB5552D10D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001-Introduccion", "001-Introduccion\001-Introduccion.vcxproj", "{7DF5270C-D6D0-4FC8-875E-35C3951E566D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004-Herencia", "004-Herencia\004-Herencia.vcxproj", "{EC24137C-0077-4661-AD02-11678379001D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "015-Recursividad-Introduccion", "015-Recursividad-Introduccion\EjemploRecursivo.vcxproj", "{D13DA0FC-1538-4321-8778-380623D74D3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,18 +95,6 @@ Global
 		{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}.Release|Win32.ActiveCfg = Release|Win32
 		{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}.Release|Win32.Build.0 = Release|Win32
 		{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}.Release|x64.ActiveCfg = Release|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Debug|Win32.Build.0 = Debug|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Debug|x64.ActiveCfg = Debug|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Release|Any CPU.ActiveCfg = Release|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Release|Win32.ActiveCfg = Release|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Release|Win32.Build.0 = Release|Win32
-		{E135C89E-F6A7-4B37-A7B9-4FA08FFB9C5F}.Release|x64.ActiveCfg = Release|Win32
 		{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -123,18 +107,6 @@ Global
 		{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}.Release|Win32.ActiveCfg = Release|Win32
 		{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}.Release|Win32.Build.0 = Release|Win32
 		{AB595F5B-F966-4B99-8961-4B0DAE8D82AB}.Release|x64.ActiveCfg = Release|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Debug|Win32.Build.0 = Debug|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Debug|x64.ActiveCfg = Debug|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Release|Any CPU.ActiveCfg = Release|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Release|Win32.ActiveCfg = Release|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Release|Win32.Build.0 = Release|Win32
-		{7FA16EB2-0803-421A-B9C1-7662141F658D}.Release|x64.ActiveCfg = Release|Win32
 		{A0E63700-8E7D-4E31-8F96-88E03DAC8CAC}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{A0E63700-8E7D-4E31-8F96-88E03DAC8CAC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{A0E63700-8E7D-4E31-8F96-88E03DAC8CAC}.Debug|Mixed Platforms.Build.0 = Debug|Win32

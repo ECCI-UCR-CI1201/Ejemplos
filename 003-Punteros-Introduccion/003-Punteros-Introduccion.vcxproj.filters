@@ -22,7 +22,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>sources</Filter>
     </ClCompile>
-    <ClCompile Include="EjemploAritmeticaPunteros.cpp">
+    <ClCompile Include="EjemploPunteros.cpp">
       <Filter>sources</Filter>
     </ClCompile>
   </ItemGroup>

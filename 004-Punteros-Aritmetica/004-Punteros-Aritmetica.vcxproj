@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}</ProjectGuid>
+    <ProjectGuid>{967D047E-514D-450E-BC21-00EC624AB821}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>004-Punteros-Aritmetica</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -82,7 +82,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EjemploPunteros.cpp" />
+    <ClCompile Include="EjemploAritmeticaPunteros.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

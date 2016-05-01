@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{967D047E-514D-450E-BC21-00EC624AB821}</ProjectGuid>
+    <ProjectGuid>{C01BA4D5-3F1E-4B5E-BBB8-C2EEB276370C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>003-AritmeticaPunteros</RootNamespace>
+    <RootNamespace>003-Punteros-Introduccion</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>003-AritmeticaPunteros</ProjectName>
+    <ProjectName>003-Punteros-Introduccion</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -82,7 +82,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EjemploAritmeticaPunteros.cpp" />
+    <ClCompile Include="EjemploPunteros.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

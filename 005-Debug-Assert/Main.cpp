@@ -11,7 +11,6 @@ int _tmain(int argc, _TCHAR* argv[]) {
 
 	srand((unsigned int)time(NULL));
 
-
 #ifdef _DEBUG
 	assert(rand() % 2 == 0);
 #endif

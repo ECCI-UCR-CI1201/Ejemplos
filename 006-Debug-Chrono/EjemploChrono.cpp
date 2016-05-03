@@ -4,8 +4,7 @@ using namespace std;
 using std::chrono::nanoseconds;
 using std::chrono::duration_cast;
 
-int _tmain(int argc, _TCHAR* argv[])
-{
+int _tmain(int argc, _TCHAR* argv[]) {
 
 	// Se obtiene el tick de inicio
 	auto inicio = std::chrono::high_resolution_clock::now();
